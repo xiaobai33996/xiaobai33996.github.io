@@ -47,6 +47,14 @@ body {
   transform: translate(-50%, -50%);
   -webkit-text-stroke: 2px #29617c;
 }
+.text1{
+  font-size: 80pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 2px #228B22	;
+}
 .imgContainer .hoverImg {
   font-size: 60pt;
   position: absolute;
@@ -54,7 +62,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   visibility: hidden;
-
+  -webkit-text-stroke: 2px grey
 }
 .imgContainer:hover .hoverImg{
   visibility: visible;
@@ -68,4 +76,12 @@ body {
 }
 .imgContainer:hover .hoveri {
   width:650pt;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.book{
+  height: 100px
 }
